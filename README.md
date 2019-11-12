@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the charcoal particle segmentation and classification system presented in the journal article:
 
-- Emma Rehn, Adam Rehn, and Aidan Possemiers. Fossil charcoal particle identification and classification by two convolutional neural networks. **(In review.)**
+- [Emma Rehn, Adam Rehn, and Aidan Possemiers. Fossil charcoal particle identification and classification by two convolutional neural networks. *Quaternary Science Reviews*, 226:106038, 2019.](https://www.sciencedirect.com/science/article/pii/S0277379119305074)
 
 
 ## Contents
@@ -150,3 +150,19 @@ To build the container image from source, run the shell script [docker/build.sh]
 ## License
 
 The code in this repository is licensed under the MIT License. See the file [LICENSE](./LICENSE) for details.
+
+If you reference this work in your own research then please cite the journal article:
+
+```
+@article{CharcoalMorphotypesCNN,
+  title   = "Fossil charcoal particle identification and classification by two convolutional neural networks",
+  journal = "Quaternary Science Reviews",
+  volume  = "226",
+  pages   = "106038",
+  year    = "2019",
+  issn    = "0277-3791",
+  doi     = "https://doi.org/10.1016/j.quascirev.2019.106038",
+  url     = "https://www.sciencedirect.com/science/article/pii/S0277379119305074",
+  author  = "E. Rehn and A. Rehn and A. Possemiers",
+}
+```
