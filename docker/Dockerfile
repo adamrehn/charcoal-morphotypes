@@ -12,5 +12,5 @@ RUN pip install humanfriendly==4.16.1 maskutils==0.0.2 mergetiff==0.0.19 natsort
 COPY --chown=keras:1000 weights.py /tmp/weights.py
 RUN KERAS_BACKEND=theano THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python3 /tmp/weights.py
 
-# Install the Keras SegNet implementation we use
+# Install Aidan's hybrid SegNet/U-Net implementation
 RUN pip install git+git://github.com/ImmortalEmperor/keras-segnet.git@v0.0.1
